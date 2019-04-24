@@ -1,0 +1,165 @@
+[3;J[H[2J
+#############################################################
+# One click Install Shadowsocks-go server                   #
+# Intro: https://teddysun.com/392.html                      #
+# Author: Teddysun <i@teddysun.com>                         #
+# Github: https://github.com/shadowsocks/shadowsocks-go     #
+#############################################################
+
+Please enter password for shadowsocks-go:
+(Default password: teddysun.com):
+---------------------------
+password = glf@Huawei@123
+---------------------------
+
+Please enter a port for shadowsocks-go [1-65535]
+(Default port: 14721):
+---------------------------
+port = 443
+---------------------------
+
+Please select stream cipher for shadowsocks-go:
+[0;32m1[0m) aes-256-cfb
+[0;32m2[0m) aes-192-cfb
+[0;32m3[0m) aes-128-cfb
+[0;32m4[0m) aes-256-ctr
+[0;32m5[0m) aes-192-ctr
+[0;32m6[0m) aes-128-ctr
+[0;32m7[0m) chacha20-ietf
+[0;32m8[0m) chacha20
+[0;32m9[0m) salsa20
+[0;32m10[0m) rc4-md5
+Which cipher you'd select(Default: aes-256-cfb):[[0;31mError[0m] Please enter a number
+Please select stream cipher for shadowsocks-go:
+[0;32m1[0m) aes-256-cfb
+[0;32m2[0m) aes-192-cfb
+[0;32m3[0m) aes-128-cfb
+[0;32m4[0m) aes-256-ctr
+[0;32m5[0m) aes-192-ctr
+[0;32m6[0m) aes-128-ctr
+[0;32m7[0m) chacha20-ietf
+[0;32m8[0m) chacha20
+[0;32m9[0m) salsa20
+[0;32m10[0m) rc4-md5
+Which cipher you'd select(Default: aes-256-cfb):
+---------------------------
+cipher = rc4-md5
+---------------------------
+
+
+Press any key to start...or Press Ctrl+C to cancel
+Get:1 http://security.ubuntu.com/ubuntu xenial-security InRelease [107 kB]
+Hit:2 http://archive.ubuntu.com/ubuntu xenial InRelease
+Get:3 http://archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
+Get:4 http://security.ubuntu.com/ubuntu xenial-security/main Sources [123 kB]
+Get:5 http://archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]
+Get:6 http://security.ubuntu.com/ubuntu xenial-security/universe Sources [65.4 kB]
+Get:7 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages [500 kB]
+Get:8 http://archive.ubuntu.com/ubuntu xenial-updates/main Sources [306 kB]
+Get:9 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages [443 kB]
+Get:10 http://archive.ubuntu.com/ubuntu xenial-updates/universe Sources [203 kB]
+Get:11 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [783 kB]
+Get:12 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages [351 kB]
+Get:13 http://archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages [718 kB]
+Get:14 http://archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [631 kB]
+Get:15 http://archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages [578 kB]
+Get:16 http://archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en [253 kB]
+Get:17 http://security.ubuntu.com/ubuntu xenial-security/universe i386 Packages [301 kB]
+Fetched 5,577 kB in 10s (528 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+gzip is already the newest version (1.6-4ubuntu1).
+unzip is already the newest version (6.0-20ubuntu1).
+The following package was automatically installed and is no longer required:
+  python3-prettytable
+Use 'apt autoremove' to remove it.
+The following additional packages will be installed:
+  libcurl3-gnutls
+The following packages will be upgraded:
+  curl libcurl3-gnutls wget
+3 upgraded, 0 newly installed, 0 to remove and 127 not upgraded.
+Need to get 623 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 curl amd64 7.47.0-1ubuntu2.8 [139 kB]
+Get:2 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libcurl3-gnutls amd64 7.47.0-1ubuntu2.8 [185 kB]
+Get:3 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 wget amd64 1.17.1-1ubuntu1.4 [299 kB]
+Fetched 623 kB in 3s (194 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 109134 files and directories currently installed.)
+Preparing to unpack .../curl_7.47.0-1ubuntu2.8_amd64.deb ...
+Unpacking curl (7.47.0-1ubuntu2.8) over (7.47.0-1ubuntu2.5) ...
+Preparing to unpack .../libcurl3-gnutls_7.47.0-1ubuntu2.8_amd64.deb ...
+Unpacking libcurl3-gnutls:amd64 (7.47.0-1ubuntu2.8) over (7.47.0-1ubuntu2.5) ...
+Preparing to unpack .../wget_1.17.1-1ubuntu1.4_amd64.deb ...
+Unpacking wget (1.17.1-1ubuntu1.4) over (1.17.1-1ubuntu1.3) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for libc-bin (2.23-0ubuntu9) ...
+Processing triggers for install-info (6.1.0.dfsg.1-5) ...
+Setting up libcurl3-gnutls:amd64 (7.47.0-1ubuntu2.8) ...
+Setting up curl (7.47.0-1ubuntu2.8) ...
+Setting up wget (1.17.1-1ubuntu1.4) ...
+Processing triggers for libc-bin (2.23-0ubuntu9) ...
+
+--2018-05-25 23:25:39--  https://dl.lamp.sh/shadowsocks/shadowsocks-server-linux64-1.2.1.gz
+Resolving dl.lamp.sh (dl.lamp.sh)... 168.235.94.152, 107.173.13.215
+Connecting to dl.lamp.sh (dl.lamp.sh)|168.235.94.152|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1441970 (1.4M) [application/x-gzip]
+Saving to: ‘shadowsocks-server-linux64-1.2.1.gz’
+
+     0K .......... .......... .......... .......... ..........  3%  136K 10s
+    50K .......... .......... .......... .......... ..........  7%  143K 9s
+   100K .......... .......... .......... .......... .......... 10%  268K 8s
+   150K .......... .......... .......... .......... .......... 14%  279K 7s
+   200K .......... .......... .......... .......... .......... 17% 15.3M 5s
+   250K .......... .......... .......... .......... .......... 21%  300K 5s
+   300K .......... .......... .......... .......... .......... 24% 11.8M 4s
+   350K .......... .......... .......... .......... .......... 28% 20.7M 3s
+   400K .......... .......... .......... .......... .......... 31%  293K 3s
+   450K .......... .......... .......... .......... .......... 35% 11.4M 3s
+   500K .......... .......... .......... .......... .......... 39% 8.51M 2s
+   550K .......... .......... .......... .......... .......... 42%  302K 2s
+   600K .......... .......... .......... .......... .......... 46% 7.75M 2s
+   650K .......... .......... .......... .......... .......... 49% 14.3M 2s
+   700K .......... .......... .......... .......... .......... 53% 7.77M 1s
+   750K .......... .......... .......... .......... .......... 56% 18.2M 1s
+   800K .......... .......... .......... .......... .......... 60%  291K 1s
+   850K .......... .......... .......... .......... .......... 63% 9.39M 1s
+   900K .......... .......... .......... .......... .......... 67% 11.7M 1s
+   950K .......... .......... .......... .......... .......... 71% 11.1M 1s
+  1000K .......... .......... .......... .......... .......... 74% 32.9M 1s
+  1050K .......... .......... .......... .......... .......... 78% 17.7M 1s
+  1100K .......... .......... .......... .......... .......... 81% 19.5M 0s
+  1150K .......... .......... .......... .......... .......... 85% 16.5M 0s
+  1200K .......... .......... .......... .......... .......... 88%  292K 0s
+  1250K .......... .......... .......... .......... .......... 92% 8.54M 0s
+  1300K .......... .......... .......... .......... .......... 95% 20.1M 0s
+  1350K .......... .......... .......... .......... .......... 99% 10.3M 0s
+  1400K ........                                              100%  171M=2.0s
+
+2018-05-25 23:25:42 (703 KB/s) - ‘shadowsocks-server-linux64-1.2.1.gz’ saved [1441970/1441970]
+
+--2018-05-25 23:25:42--  https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-go-debian
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.228.133
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|151.101.228.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2161 (2.1K) [text/plain]
+Saving to: ‘/etc/init.d/shadowsocks’
+
+     0K ..                                                    100% 41.2M=0s
+
+2018-05-25 23:25:43 (41.2 MB/s) - ‘/etc/init.d/shadowsocks’ saved [2161/2161]
+
+Shadowsocks-go server install success!
+Starting Shadowsocks-go success
+[3;J[H[2J
+Congratulations, Shadowsocks-go server install completed!
+Your Server IP        : [41;37m 139.159.231.29 [0m
+Your Server Port      : [41;37m 443 [0m
+Your Password         : [41;37m glf@Huawei@123 [0m
+Your Encryption Method: [41;37m rc4-md5 [0m
+
+Welcome to visit:https://teddysun.com/392.html
+Enjoy it!
+
